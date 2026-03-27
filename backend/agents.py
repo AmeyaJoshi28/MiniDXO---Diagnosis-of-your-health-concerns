@@ -3,7 +3,7 @@ import re
 import google.generativeai as genai
 
 # Configuration for Gemini 3
-API_KEY = "AIzaSyAsJrPVIW-JLeADa4FRFWg7kOrl3nEfjuA"
+API_KEY = "YOUR_GEMINI_KEY"
 genai.configure(api_key=API_KEY)
 
 # UPDATED: Using the Gemini 3 Flash Preview model
